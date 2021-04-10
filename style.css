@@ -1,0 +1,28 @@
+
+
+@media only screen and (max-width: 400px) 
+{img.photo {width: 50%;}}
+
+.flex-container {
+display: flex;
+}
+
+@media screen and (max-width:768px) {
+...
+.flex-container {
+display: flex;
+flex-direction: column;
+}
+article, section {
+width: 70%;
+margin-right: 15%;
+margin-left: 15%;
+}
+img {
+width: 100%;
+}
+}
+
+
+
+
