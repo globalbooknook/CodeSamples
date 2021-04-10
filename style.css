@@ -1,28 +1,14 @@
 
-
-@media only screen and (max-width: 400px) 
-{img.photo {width: 50%;}}
-
-.flex-container {
-display: flex;
+.blog-post, div, article {
+    padding: 40px;
+    background-color: silver;
 }
 
-@media screen and (max-width:768px) {
-...
-.flex-container {
-display: flex;
-flex-direction: column;
+@media only screen and (min-widty:400px;)
+{
+    img{ 
+        width: 35%;}
 }
-article, section {
-width: 70%;
-margin-right: 15%;
-margin-left: 15%;
-}
-img {
-width: 100%;
-}
-}
-
 
 
 
